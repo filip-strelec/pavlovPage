@@ -114,9 +114,7 @@ h2 {
     max-width: unset;
   }
 
-  .current-game {
-      pointer-events: none;
-  }
+
 
   .tm-bg-dark.content-pad {
     display: flex;
