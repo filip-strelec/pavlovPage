@@ -68,7 +68,7 @@ h2 {
 
 .btn-primary:hover,
 .btn-primary:focus {
-    color: #5cac38;
+    color: #3CF;
     background-color: white;
 }
 
@@ -112,6 +112,10 @@ h2 {
 .position-relative.page-width-1.page-right.tm-border-top.tm-border-bottom {
     margin: unset;
     max-width: unset;
+  }
+
+  .current-game {
+      pointer-events: none;
   }
 
   .tm-bg-dark.content-pad {
