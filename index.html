@@ -380,7 +380,7 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palet
 
 setTimeout(() => {
     let cookie = document.getElementById("cc-nb-text")
-cookie.innerHTML = "We use cookies and other tracking technologies to improve your browsing experience on our website, to analyze our website traffic, and to understand where our visitors are coming from."
+    cookie && (cookie.innerHTML = "We use cookies and other tracking technologies to improve your browsing experience on our website, to analyze our website traffic, and to understand where our visitors are coming from.")
 document.querySelector(".cc-nb-changep").style.display = "none" 
 }, "70")
 
