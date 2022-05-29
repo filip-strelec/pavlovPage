@@ -71,8 +71,15 @@ function openPage(no) {
 
 $(window).on('load', function() {
   $('body').addClass('loaded');
-  openPage(1);
+//  openPage(1);
 });
+
+var vid = document.getElementById("bg-video");
+vid.onloadeddata = function() {
+    alert("Browser has loaded the video");
+    $('body').addClass('loaded');
+  openPage(1);
+}; 
 
 jQuery(function() {
     $('.tm-page-link').on('click', function(){
