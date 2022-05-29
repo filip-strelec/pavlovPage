@@ -69,10 +69,10 @@ function openPage(no) {
     .fadeIn();
 }
 
-$(window).on('load', function() {
-  $('body').addClass('loaded');
+//$(window).on('load', function() {
+ // $('body').addClass('loaded');
 //  openPage(1);
-});
+//});
 
 var vid = document.getElementById("bg-video");
 vid.onloadeddata = function() {
