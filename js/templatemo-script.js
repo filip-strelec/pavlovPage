@@ -76,7 +76,7 @@ $(window).on('load', function() {
 
 var vid = document.getElementById("bg-video");
 vid.onloadeddata = function() {
-    alert("Browser has loaded the video");
+    console.log("Browser has loaded the video");
     $('body').addClass('loaded');
   openPage(1);
 }; 
