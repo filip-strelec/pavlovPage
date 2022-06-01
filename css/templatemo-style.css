@@ -153,6 +153,11 @@ iframe {
     height: 600px;
   }
 
+  .leaderboard-iframe{
+      height: 100%!important;
+  }
+
+  
 .navbar .navbar-nav .nav-item:last-child {
     margin-right: 0;
 }
