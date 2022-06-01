@@ -78,8 +78,17 @@ var vid = document.getElementById("bg-video");
 vid.onloadeddata = function() {
     console.log("Browser has loaded the video");
     $('body').addClass('loaded');
+   
   openPage(1);
 }; 
+
+setTimeout(()=>{
+if (!$('body')[0].classList.contains("loaded")){
+  $('body').addClass('loaded');
+  openPage(1);
+}
+
+},5000)
 
 jQuery(function() {
     $('.tm-page-link').on('click', function(){

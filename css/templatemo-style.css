@@ -45,14 +45,25 @@ h2 {
 .page-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     padding-left: 30px;
     padding-right: 30px;
 }
 
+.container-fluid.tm-content-container {
+    margin-top: 64px;
+  }
+
 .container-fluid {
     max-width: 1860px;
 }
+
+.tm-bg-dark.content-pad.server-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
 
 .btn {
     font-size: 1.3rem;
