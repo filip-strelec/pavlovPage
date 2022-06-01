@@ -148,6 +148,14 @@ flex-direction: column;
       }
       
   }
+
+  .landing-px{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 86vh;
+
+  }
 iframe {
     width: 100%;
     height: 600px;
