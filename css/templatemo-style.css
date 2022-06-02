@@ -64,6 +64,19 @@ h2 {
     justify-content: space-evenly;
   }
 
+  @media only screen and (max-width: 500px) {
+    .tm-bg-dark.content-pad.server-flex {
+        flex-direction: column;
+      }
+    .page-container {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .px-5 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+  }
 
 .btn {
     font-size: 1.3rem;
