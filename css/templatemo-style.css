@@ -73,8 +73,11 @@ h2 {
         padding-right: 4px;
     }
     .px-5 {
-        padding-right: 0px;
-        padding-left: 0px;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .leaderboard-container{
+        padding:4px !important;
     }
   }
 
