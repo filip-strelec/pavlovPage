@@ -208,7 +208,7 @@ https://templatemo.com/tm-560-astro-motion
             <div class="circle intro-circle-3"></div>
             <div class="circle intro-circle-4"></div>
             <div style="text-align:center" class="tm-bg-dark server-flex content-pad">
-              <div class="server-container">
+              <!-- <div class="server-container">
                 <h2 style="margin-bottom: 12px;">CURRENT ROUND</h2>
                 <iframe class="current-game"
                   src="https://pavlov.jazbina.xyz/PublicViewLists/PlayersFromServers?servers=1&backgroundColorHex=%23222&fontColorHex=%23ffffff"
@@ -276,7 +276,80 @@ https://templatemo.com/tm-560-astro-motion
                 <br>
              
               </div>
+ -->
 
+
+ <div class="flex-row hide-flex">  
+  <h3>CURRENT ROUND</h3>
+  <h3>MAP ROTATION</h3>
+ </div>
+
+ <div class="flex-row">
+  <div id="server-info"></div>
+  <div id="server-map-list"> 
+    
+    
+    
+
+    <div class="maps-1">
+
+      <h4 style="text-align:center" class="mb-4">[VanguardForce.NET] Call of Duty maps TDM</h4>
+      <a target="_blank" href="https://mod.io/g/pavlov/m/rust">Rust</a>
+       <br>
+       <a target="_blank" href="https://mod.io/g/pavlov/m/cod4-nuketown">[COD4] Nuketown</a>
+       
+    </div>
+    
+    
+
+    
+
+    <div class="maps-2">
+     <h4 class="mb-4" style="text-align:center">[VanguardForce.NET] Call of Duty 2 maps TTDM </h4>
+     <a target="_blank" href="https://mod.io/g/pavlov/m/toujane">Toujane,
+       Tunisia</a>
+     <br>
+     <a target="_blank" href="https://mod.io/g/pavlov/m/carentan">Carentan,
+       France</a>
+     <br>
+   
+     <a target="_blank" href="https://mod.io/g/pavlov/m/burgundy">Burgundy, France</a>
+     <br>    
+     <a target="_blank" href="https://mod.io/g/pavlov/m/leningrad">Leningrad, Russia</a>
+     <br>  
+     <a target="_blank" href="https://mod.io/g/pavlov/m/st-mere-eglise">St Mere Eglise, France</a>
+     <br>              
+     <a target="_blank" href="https://mod.io/g/pavlov/m/railyard">Railyard, Russia</a>
+     <br> 
+
+     <a target="_blank" href="https://mod.io/g/pavlov/m/matmata">Matmata, Tunisia</a>
+    </div>
+     
+
+     
+
+
+    <div class="maps-3">
+     <h4 class="mb-4 last-server" style="text-align:center; margin-top:24px;">[VanguardForce.NET] World War 
+       maps PUSH</h4>
+       <a target="_blank" href="https://mod.io/g/pavlov/m/1918">1918</a>
+       <br>
+       <a target="_blank" href="https://mod.io/g/pavlov/m/snowtrail">SnowTrail</a>
+       <br>  
+        <a target="_blank" href="https://mod.io/g/pavlov/m/vineyardfix-testpush">VineYard.02[Push][ww2]</a>
+       <br>
+    
+    
+       <a target="_blank" href="https://mod.io/g/pavlov/m/ww2-brecourt-manor2">WW2 Brecourt Manor</a>
+     <br>
+        
+     <a target="_blank" href="https://mod.io/g/pavlov/m/ww2-firestorm-push1">WW2 Firestorm [Push]</a>
+</div>
+
+
+
+     </div>
+ </div>
 
             </div>
           </div>
@@ -417,6 +490,11 @@ let name = month[d.getMonth()];
     document.querySelector(".leaderboards-title").innerHTML=`${name} Leaderboards`
 
   </script>
+
+  <script defer src="/script.js"></script>
+
+  <link rel="stylesheet" href="/sortable/table.css"/>
+  <script defer src="/sortable/table.js"></script>
 
 
 </body>
