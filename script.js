@@ -251,3 +251,5 @@ const getData = () => {
 // iteracija po svakom elementu u objektu i za svaki napravi html elemenet
 
 getData();
+
+setInterval(()=>{getData()},10000)
