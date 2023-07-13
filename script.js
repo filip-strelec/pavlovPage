@@ -225,6 +225,8 @@ const getData = () => {
       // Success!
       const data = JSON.parse(request.responseText);
       dataAPI = data;
+      dataServerInfo=[];
+      dataServerList=[];
 
       for (let index = 0; index < 3; index++) {
         const elementInfo = dataAPI[`server${index + 1}_info`];
