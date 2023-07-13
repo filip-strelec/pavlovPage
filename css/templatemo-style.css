@@ -122,7 +122,7 @@ tr {
 .map-img {
   width: 95%;
   object-fit: cover;
-  height: 300px;
+  height: 420px;
 }
 
 .individualServer {
@@ -221,6 +221,15 @@ tr {
     height: max-content !important;
     margin-bottom: 24px;
   }
+
+
+
+.map-img {
+  
+  object-fit: contain;
+
+}
+
 }
 .btn {
   font-size: 1.3rem;

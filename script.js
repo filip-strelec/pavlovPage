@@ -126,7 +126,6 @@ let fakedDataServerList = [
   },
 ];
 
-// f-ja koja rpria 2 arg
 
 const populateHTMLWithData = (serverInfoArray, serverListArray) => {
   let htmlString = "";
@@ -236,7 +235,6 @@ const getData = () => {
       }
 
       populateHTMLWithData(dataServerInfo, dataServerList);
-      console.log(dataServerInfo, dataServerList);
     } else {
       // We reached our target server, but it returned an error
     }
