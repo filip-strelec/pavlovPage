@@ -86,6 +86,7 @@ h2 {
 td {
   font-weight: 500;
   height: 54px !important;
+  text-align: left !important;
   color: whitesmoke !important;
 }
 
