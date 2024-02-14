@@ -133,7 +133,7 @@ const populateHTMLWithData = (serverInfoArray, serverListArray) => {
   for (let i = 0; i < serverInfoArray.length; i++) {
     tableString = "";
     // serverListArray[i].InspectList = fakedDataServerList;
-
+try{
     for (
       let pIndex = 0;
       pIndex < serverListArray[i].InspectList.length;
@@ -158,7 +158,10 @@ const populateHTMLWithData = (serverInfoArray, serverListArray) => {
       
     `;
     }
-
+  }
+  catch(e){
+    console.log(e);
+  }
     let individualServerHTMLString = `
     <div class="individualServer server${i}">
     
